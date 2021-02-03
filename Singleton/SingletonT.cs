@@ -36,7 +36,7 @@ namespace Design_Patterns
 		}
 
 		/// <summary>
-		/// Call this method for the class which has constructors with parameters.
+		/// This method is for the class which has constructors with parameters.
 		/// </summary>
 		/// <param name="parameters"></param>
 		/// <returns></returns>

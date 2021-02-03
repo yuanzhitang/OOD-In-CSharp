@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design_Patterns.SimpleFactory;
+using System;
 
 namespace Design_Patterns
 {
@@ -7,6 +8,12 @@ namespace Design_Patterns
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Hello Design Pattern!");
+
+			SingletonSample.Run();
+
+			SimpleFactorySample.Run();
+
+			Console.ReadLine();
 		}
 	}
 }
