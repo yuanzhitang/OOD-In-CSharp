@@ -1,4 +1,5 @@
-﻿using Design_Patterns.SimpleFactory;
+﻿using Design_Patterns.FactoryMethod;
+using Design_Patterns.SimpleFactory;
 using System;
 
 namespace Design_Patterns
@@ -12,6 +13,8 @@ namespace Design_Patterns
 			SingletonSample.Run();
 
 			SimpleFactorySample.Run();
+
+			FactoryMethodSample.Run();
 
 			Console.ReadLine();
 		}
