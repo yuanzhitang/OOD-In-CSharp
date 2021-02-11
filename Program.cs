@@ -4,19 +4,21 @@ using System;
 
 namespace Design_Patterns
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine("Hello Design Pattern!");
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Design Pattern!");
 
-			SingletonSample.Run();
+            SingletonSample.Run();
 
-			SimpleFactorySample.Run();
+            SimpleFactorySample.Run();
 
-			FactoryMethodSample.Run();
+            FactoryMethodSample.Run();
 
-			Console.ReadLine();
-		}
-	}
+            AbstractFactorySample.Run();
+
+            Console.ReadLine();
+        }
+    }
 }
