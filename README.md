@@ -1,6 +1,6 @@
 # Design-Pattern Samples in C#
 
-### Design Principles:
+## Design Principles:
 1. Single Responsibility
 2. Open/Closed
 3. Liskov Substitution
@@ -9,10 +9,10 @@
 6. KISS
 7. DRY
 
-### Design-Patterns
+## Design-Patterns
 
 
-# Creational Patterns
+### Creational Patterns
 
 * Abstract Factory	Creates an instance of several families of classes
 * Builder	Separates object construction from its representation
@@ -20,7 +20,7 @@
 * Prototype	A fully initialized instance to be copied or cloned
 * Singleton	A class of which only a single instance can exist
 
-# Structural Patterns
+### Structural Patterns
 
 * Adapter	Match interfaces of different classes
 * Bridge	Separates an object’s interface from its implementation
@@ -30,7 +30,7 @@
 * Flyweight	A fine-grained instance used for efficient sharing
 * Proxy	An object representing another object
 
-# Behavioral Patterns
+### Behavioral Patterns
 
 * Chain of Resp.	A way of passing a request between a chain of objects
 * Command	Encapsulate a command request as an object
@@ -44,7 +44,7 @@
 * Template Method	Defer the exact steps of an algorithm to a subclass
 * Visitor	Defines a new operation to a class without change
 
-* References
+### References
 
 https://refactoringguru.cn/
 
