@@ -10,7 +10,7 @@ namespace Design_Patterns
 	public class Singleton<T> where T : class
 	{
 		static object SyncRoot = new object();
-		static T instance;
+		static volatile T instance;
 
 		public static T Instance
 		{

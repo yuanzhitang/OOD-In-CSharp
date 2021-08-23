@@ -2,7 +2,7 @@
 {
 	public class Singleton
 	{
-		private static Singleton instance;
+		private static volatile Singleton instance;
 		private static readonly object lockObj = new object();
 		private Singleton()
 		{
