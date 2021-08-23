@@ -6,4 +6,22 @@
     <RootNamespace>Design_Patterns</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Adapter\Structural code\" />
+    <Folder Include="Bridge\Structural code\" />
+    <Folder Include="Builder\Structural code\" />
+    <Folder Include="Chain of Responsibility\Structural code\" />
+    <Folder Include="Command\Structural code\" />
+    <Folder Include="Composite\Structural code\" />
+    <Folder Include="Flyweight\Structural code\" />
+    <Folder Include="Interpreter\Structural code\" />
+    <Folder Include="Iterator\Structural code\" />
+    <Folder Include="Mediator\Structural code\" />
+    <Folder Include="Memento\Structural code\" />
+    <Folder Include="ProtoType\Structural code\" />
+    <Folder Include="State\Structural code\" />
+    <Folder Include="Strategy\Structural code\" />
+    <Folder Include="Visitor\Structural code\" />
+  </ItemGroup>
+
 </Project>
