@@ -5,3 +5,5 @@
 /obj
 /bin/Debug/net5.0
 /.vs
+/Design-Principles/obj
+/Design-Principles/bin/Debug/net5.0
