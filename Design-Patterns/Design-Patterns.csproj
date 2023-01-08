@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Design_Patterns</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Design-Patterns\**" />
+    <Compile Remove="Design-Principles\**" />
+    <EmbeddedResource Remove="Design-Patterns\**" />
+    <EmbeddedResource Remove="Design-Principles\**" />
+    <None Remove="Design-Patterns\**" />
+    <None Remove="Design-Principles\**" />
+  </ItemGroup>
+
+</Project>
